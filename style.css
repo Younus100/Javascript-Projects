@@ -1,0 +1,67 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #eac696;
+}
+
+.head {
+  text-align: center;
+  background-color: #c8ae7d;
+}
+
+.block {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-color: #765827;
+  padding: 20px;
+}
+
+img {
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.image {
+  border: 20px solid #c8ae7d;
+}
+
+.mimage {
+  animation: anime 4s;
+}
+
+@keyframes anime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eac696;
+  margin: auto;
+}
+
+a {
+  display: block;
+  flex: 1;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #fff;
+}
